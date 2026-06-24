@@ -20,15 +20,15 @@ const Footer: React.FC = () => {
               
               {/* RE/UP & Socials */}
               <div>
-                <h3 className="text-[20px] sm:text-sm md:text-base font-bold tracking-tighter text-black leading-none mb-1">
+                <h3 className="text-[25px] sm:text-sm md:text-[60px] font-bold tracking-tighter text-black leading-none mb-1">
                   RE / UP
                 </h3>
                 <div className="flex justify-center gap-1.5 text-black">
                   <a href="#" className="hover:opacity-70 transition-opacity">
-                    <CiInstagram className="w-5 h-5 sm:w-4 sm:h-4" />
+                    <CiInstagram className="w-5 h-5 sm:w-4 sm:h-4 md:w-8 md:h-8" />
                   </a>
                   <a href="#" className="hover:opacity-70 transition-opacity">
-                    <PiDribbbleLogoThin className="w-5 h-5 sm:w-4 sm:h-4" />
+                    <PiDribbbleLogoThin className="w-5 h-5 sm:w-4 sm:h-4 md:w-8 md:h-8" />
                   </a>
                 </div>
               </div>
